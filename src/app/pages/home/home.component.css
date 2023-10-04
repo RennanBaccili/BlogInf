@@ -1,0 +1,28 @@
+.main-home{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
+}
+.main-home-content{
+  width: 70%;
+  min-height: 80vh;
+  background-color:#0e0f10c6;
+  border-radius: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+app-card{
+  margin: 20px;
+}
+
+@media screen and (max-width:700px){
+  .main-home-content{
+    width: 100%;
+  }
+}

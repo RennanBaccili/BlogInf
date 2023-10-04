@@ -1,0 +1,11 @@
+button{
+  color: black;
+  border-color: white;
+  background-color: aliceblue;
+  font-size: 1.8vh;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  border-color: black;
+}

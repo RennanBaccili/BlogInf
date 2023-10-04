@@ -1,0 +1,23 @@
+aside-main{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.box{
+  height: 30vh;
+  width: 40vh;
+  background-color: #20212931;
+  display: flex;
+  border: 1px solid;
+  margin-top: 5vh;
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+}
+
+ul>li{
+  color: white;
+}
