@@ -1,0 +1,10 @@
+.picsum-img-wrapper{
+  width: 30%;
+}
+div .limit{
+  width: 100vh;
+}
+.limit img{
+  width: 100vh;
+  height: 60vh;
+}

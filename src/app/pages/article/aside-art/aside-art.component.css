@@ -1,4 +1,4 @@
-aside-main{
+.aside-main{
   display: flex;
   flex-direction: column;
 
@@ -6,16 +6,17 @@ aside-main{
 
 .box{
   height: 30vh;
-  width: 40vh;
-  background-color: #20212931;
+  max-width: 40vh;
+  background-color: #20212971;
   display: flex;
-  border: 1px solid;
   margin-top: 5vh;
+  border-radius: 5%;
 }
 
 .box img{
   width: 100%;
   height: 100%;
+  border-radius: 5%;
 }
 
 ul>li{

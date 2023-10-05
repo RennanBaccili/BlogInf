@@ -1,12 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgbCarousel } from '@ng-bootstrap/ng-bootstrap';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+
+
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgbCarousel
   ]
 })
 export class HomeModule { }

@@ -12,6 +12,7 @@ import { CardComponent } from './pages/home/card/card.component';
 import { ArticleComponent } from './pages/article/article.component';
 import { AsideArtComponent } from './pages/article/aside-art/aside-art.component';
 import { MainArtComponent } from './pages/article/main-art/main-art.component';
+import { CarouselComponent } from './pages/home/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { MainArtComponent } from './pages/article/main-art/main-art.component';
     CardComponent,
     ArticleComponent,
     AsideArtComponent,
-    MainArtComponent
+    MainArtComponent,
+    CarouselComponent
+
   ],
   imports: [
     BrowserModule,

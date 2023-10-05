@@ -5,9 +5,20 @@
   justify-content: center;
 }
 .articles-main{
-  width: 50%;
+  width: 40%;
 }
 .articles-aside{
   width: 400px;
 }
 
+@media screen and (max-width:1000px){
+  .articles{
+    flex-direction: column;
+  }
+  .articles-main{
+    width: 80%;
+  }
+  .articles-aside{
+    width: 45vh;
+  }
+}

@@ -21,6 +21,30 @@ app-card{
   margin: 20px;
 }
 
+.carousel{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+.carousel app-carousel{
+  width: 50%;
+}
+
+.title{
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+.title h1{
+  padding: 2vh;
+  background-color:#13151732;
+  border-radius: 2vh;
+}
+
 @media screen and (max-width:700px){
   .main-home-content{
     width: 100%;
